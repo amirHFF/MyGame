@@ -9,8 +9,13 @@ public class Main {
         PersonDto person=new PersonDto();
         person.setName22("amir");
         person.setFamily("fooladi");
-
+        person.setFatherNAme("akbar");
+        person.setPhone("44657612");
+        long before =System.currentTimeMillis();
         MapperImp.Mapper(person, com.company.justForTest.person.class);
+//        MapperImp.mapperHandy(person);
+        long after=System.currentTimeMillis();
+        System.out.println(after-before);
 //        MyFrame frame=new MyFrame();
 //        frame.setVisible(true);
 //        frame.setSize(1350,900);

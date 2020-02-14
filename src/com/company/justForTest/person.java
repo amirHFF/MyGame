@@ -9,9 +9,36 @@ public class person {
     private String family;
     private String nationalCode;
     private List<String> contacts;
+    private String phone;
+    private String address;
+    private String fatherNAme;
 
     public List<String> getContacts() {
         return contacts;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getFatherNAme() {
+        return fatherNAme;
+    }
+
+    public void setFatherNAme(String fatherNAme) {
+        this.fatherNAme = fatherNAme;
     }
 
     public void setContacts(List<String> contacts) {
@@ -52,6 +79,6 @@ public class person {
 
     @Override
     public String toString() {
-        return "name : " + name + " family : " + family + "nationalCode: " + nationalCode;
+        return "name : " + name + " family : " + family + " nationalCode: " + nationalCode;
     }
 }

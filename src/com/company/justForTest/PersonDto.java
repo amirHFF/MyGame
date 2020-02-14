@@ -9,11 +9,35 @@ public class PersonDto {
     private String name22;
 
     private String family;
-
-
     private String nationalCode;
     private List<String> contacts;
+    private String phone;
+    private String address;
+    private String fatherNAme;
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getFatherNAme() {
+        return fatherNAme;
+    }
+
+    public void setFatherNAme(String fatherNAme) {
+        this.fatherNAme = fatherNAme;
+    }
     public List<String> getContacts() {
         return contacts;
     }
